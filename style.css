@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'cocogoose';
+    src: url('fonts/Cocogoose.eot');
+    src: local('Cocogoose'),
+        url('fonts/Cocogoose.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Cocogoose.woff2') format('woff2'),
+        url('fonts/Cocogoose.woff') format('woff'),
+        url('fonts/Cocogoose.ttf') format('truetype'),
+        url('fonts/Cocogoose.svg#Cocogoose') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: bahnschrift !important;
+}
+
+.renk{
+  background: #00adff;
+}
+
+.navbar-brand{
+  background: -webkit-linear-gradient(300deg, rgba(0,212,255,1) 0%, rgba(0,114,255,1) 100%) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.btn-primary{
+  background: rgb(0,212,255);
+  background: linear-gradient(165deg, rgba(0,212,255,1) 0%, rgba(0,114,255,1) 100%) !important;
+  border: 0px !important;
+}
+
+h2 {
+  font-family: cocogoose !important;
+}
+
+.index-card {
+  transition: all 0.3s ease;
+  border: 0 !important;
+}
+
+.index-card:hover {
+  box-shadow: 0px 4px 6px 8px #e9ecef;
+  transform: scale(1.1);
+}
+
+.urunler-card {
+  transition: all 0.3s ease;
+}
+
+.urunler-card:hover{
+  box-shadow: 0px 3px 5px 5px #e9ecef;
+  transform: scale(1.05);
+}
+
+.urunler-card .card-title, .index-card .card-title{
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2 !important;
+  -webkit-box-orient: vertical !important;
+}
+
+.marka-logo {
+  transition: all 0.3s ease;
+}
+
+.marka-logo:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.urun-div{
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 5px #e9ecef;
+}
+
+.urun-table{
+  width: 90%;
+}
+
+.urun-table td{
+  padding-top: 10px;
+}
+
+.urun-table tr td:first-child {
+  font-weight: 800;
+}
+
+.urun-table tr td:last-child {
+  color: #212529;
+}
+
+label {
+  font-family: bahnschrift condensed;
+  font-weight: 800;
+  font-size: 1.4rem;
+}
+
+input:not([type=checkbox]):not([type=radio]):not([type=search]), input:not([type=checkbox]):not([type=radio]):not([type=search]):focus {
+  background: #F0F0F3 !important;
+  border: 0 !important;
+  border-radius: 10px !important;
+  font-family: bahnschrift !important;
+}
+
+input[type=search]:focus {
+  box-shadow: none !important;
+}
+
+input:not([type=checkbox]):not([type=radio]):not([type=search]):focus {
+  box-shadow: 0px 0px 5px 4px #91cff8 !important;
+}
+
+select, textarea{
+  background-color: #F0F0F3 !important;
+  border:0 !important;
+  border-radius: 10px !important;
+  resize: none !important;
+}
+
+select:focus, textarea:focus{
+  box-shadow: 0px 0px 5px 4px #91cff8 !important;
+}
+
+.nav-tabs {
+  background-color: #F0F0F3 !important;
+  border-radius: 15px;
+}
+
+.nav-tabs, .nav-link {
+  border: 0 !important;
+  border-radius: 15px !important;
+}
+
+.nav-tabs .nav-link.active{
+  color: white !important;
+  background-color: #0d6efd !important;
+  border: 0 !important;
+}
+
+.tab-content {
+  box-shadow: 0px 3px 10px 7px #e9ecef;
+}
+
+.urunler-liste table {
+  border-collapse:collapse;
+  border-radius: 15px;
+
+  width: 100%;
+
+  font-family: bahnschrift;
+  font-weight: 800;
+  font-size: 1.2rem;
+  white-space: nowrap;
+
+  background: #F0F0F3;
+
+}
+
+.urunler-liste td{
+  padding: 7px 20px 5px;
+
+}
+
+.urunler-liste tr:hover{
+  background: lightgrey;
+}
+
+.urunler-liste tr.son:hover{
+  background: 0;
+}
+
+.urunler-liste th{
+  padding: 10px 20px;
+  border-bottom: 3px solid white;
+}
+
+.urunler-liste th:first-child {
+  border-top-left-radius:10px;
+}
+
+.urunler-liste th:last-child {
+  border-top-right-radius:10px;
+}
